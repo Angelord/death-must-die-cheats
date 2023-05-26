@@ -51,5 +51,6 @@ Some parameters are optional, if they have default values they will be denoted w
 | ach \<achievement>                    | Unlocks the achievement specified.                                        | ach Unlock_Sor              | 
 | win                                   | Wins the run.                                                             | -                           | 
 | lose                                  | Loses the run.                                                            | -                           | 
-| as \<status>                          | Applies a status to the player.                                           | as burning                  | 
+| asp \<status>                         | Applies a status to the player.                                           | asp ss_stamina              | 
+| ase \<status>                         | Applies a status to all active enemies.                                   | ase feared                  | 
 | tev \<boon> \<count=1>                | Triggers an event-based boon 'count' times.                               | tev Blades 10               | 
