@@ -6,7 +6,7 @@ Some parameters are optional, if they have default values they will be denoted w
 
 | code                                  | description                                                                              | example                     | 
 |---------------------------------------|------------------------------------------------------------------------------------------|-----------------------------|
-| gb \<boon> \<rarity> \<level=1>       | Gives a boon instantly                                                                   | gb Meteor myth 3            | 
+| gb \<boon> \<rarity=rare> \<level=1>  | Gives a boon instantly                                                                   | gb Meteor myth 3            | 
 | rb \<boon>                            | Removes a boon.                                                                          | rb Meteor                   | 
 | gi \<affix1:level> \<affix2:level>    | Gives a random item with specified affixes. Can optionally specify level for each affix. | gi hpr:5 aprc               | 
 | lb \<boon> \<levels>                  | Gains 'levels' for the boon.                                                             | lb Meteor 2                 | 
@@ -22,6 +22,7 @@ Some parameters are optional, if they have default values they will be denoted w
 | setstat \<boon> \<stat> \<value>      | Sets 'stat' of 'boon' to 'value'.                                                        | setstat Meteor pow 20       | 
 | modstat \<stat> \<modifier> \<?group> | Adds 'modifier' to 'stat' of 'group'. If group is empty will affect root.                | modstat spd 1.5 Offensive   | 
 | pstat \<stat> \<value>                | Sets 'stat' of player to 'value'.                                                        | pstat mvm 12                | 
+| gstat \<stat> \<value>                | Sets global stat 'stat' to 'value'.                                                      | gstat prr 10                | 
 | takedmg \<amount>                     | Deals 'amount' damage to player.                                                         | takedmg 100                 | 
 | tof                                   | Stops the run timer.                                                                     | -                           | 
 | ton                                   | Starts the run timer.                                                                    | -                           | 
