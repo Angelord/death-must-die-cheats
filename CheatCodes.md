@@ -49,7 +49,8 @@ Some parameters are optional, if they have default values they will be denoted w
 | encl                                  | Starts an enclosure (black fires).                                                       | -                           | 
 | sav                                   | Forces a save on profile data.                                                           | -                           | 
 | rs                                    | Resets the story state to the beginning.                                                 | -                           | 
-| ps                                    | Progress the story through one run.                                                      | -                           | 
+| ps \<last run win=false>              | Progress the story through one run.                                                      | ps true                     | 
+| ev \<event>                           | Fires a narrative event.                                                                 | ev sold_item                | 
 | ach \<achievement>                    | Unlocks the achievement specified.                                                       | ach Unlock_Sor              | 
 | win                                   | Wins the run.                                                                            | -                           | 
 | lose                                  | Loses the run.                                                                           | -                           | 
