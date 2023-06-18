@@ -22,7 +22,7 @@ Some parameters are optional, if they have default values they will be denoted w
 | slvl \<level>                         | Sets the player at 'level' without offering boons.                                       | slvl 15                     | 
 | min \<minute>                         | Sets the run time. Minute is in format mm:ss.                                            | min 15:20                   | 
 | s \<monster> \<count=1>               | Spawns 'count' monsters with code 'monster'.                                             | s Skeleton 10               | 
-| nospawn                               | Disables monster spawning.                                                               | -                           | 
+| tspawn                                | Toggles monster wave spawning.                                                           | -                           | 
 | setstat \<boon> \<stat> \<value>      | Sets 'stat' of 'boon' to 'value'.                                                        | setstat Meteor pow 20       | 
 | modstat \<stat> \<modifier> \<?group> | Adds 'modifier' to 'stat' of 'group'. If group is empty will affect root.                | modstat spd 1.5 Offensive   | 
 | pstat \<stat> \<value>                | Sets 'stat' of player to 'value'.                                                        | pstat mvm 12                | 
