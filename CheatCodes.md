@@ -59,3 +59,6 @@ Some parameters are optional, if they have default values they will be denoted w
 | ua                                    | Unlocks all objects, characters and traits.                                              | -                           | 
 | asp \<status>                         | Applies a status to the player.                                                          | asp ss_stamina              | 
 | ase \<status>                         | Applies a status to all active enemies.                                                  | ase feared                  | 
+| oscur                                 | Forces the game to use the OS cursor. Useful for recording.                              | -                           | 
+| chitchat                              | Sets the probability for getting god dialogues on level up to 100%.                      | -                           | 
+| warnoff                               | Disables enemy attack warnings.                                                          | -                           | 
