@@ -14,6 +14,7 @@ Some parameters are optional, if they have default values they will be denoted w
 | clb                                   | Clears all boons and restores the default ones (dash and attack).                        | -                           | 
 | gi \<affix1:level> \<affix2:level>    | Gives a random item with specified affixes. Can optionally specify level for each affix. | gi hpr:5 aprc               | 
 | lb \<boon> \<levels>                  | Gains 'levels' for the boon.                                                             | lb Meteor 2                 | 
+| ub \<boon>                            | Upgrades the boon to the next rarity.                                                    | ub DoomDmg                  | 
 | tev \<boon> \<count=1>                | Triggers an event-based boon 'count' times.                                              | tev Blades 10               | 
 | heal \<amount>                        | Heals 'amount' hp for the player.                                                        | heal 20                     | 
 | die                                   | Kills you instantly.                                                                     | -                           | 
